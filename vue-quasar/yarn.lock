@@ -1196,6 +1196,15 @@
   resolved "https://registry.yarnpkg.com/@quasar/fastclick/-/fastclick-1.1.5.tgz#948e79c44098cced6c3d1645315683ebc29ed834"
   integrity sha512-p3JKgTjRlJ1YQXbqTw3Bsa4j0mQdt5dq+WfYvyb7MgKGdephHCKdR/kxA5PCTAmJanGJuDKqRdyGYX/hYN4KGw==
 
+"@quasar/quasar-app-extension-testing@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@quasar/quasar-app-extension-testing/-/quasar-app-extension-testing-2.0.6.tgz#59b441fb17947e7f995ac11fc8ba689f463499e6"
+  integrity sha512-mkGHOLuMNJ56UDpRtScvUMW4PQsF4Ys4sxYiTePMSRn+ms1hcRQh1RacC/nyY4p2Do8KKg3Q0cRphsEFWqsb0g==
+  dependencies:
+    chalk "^4.1.1"
+    execa "^5.1.1"
+    strip-ansi "^6.0.0"
+
 "@quasar/ssr-helpers@2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@quasar/ssr-helpers/-/ssr-helpers-2.2.0.tgz#33ee22a8fb0d24b53c48485d7916f733f0c2ef7a"
@@ -3006,7 +3015,7 @@ events@^3.2.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
-execa@^5.0.0:
+execa@^5.0.0, execa@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
   integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
